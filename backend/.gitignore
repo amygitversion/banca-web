@@ -1,0 +1,39 @@
+# Compilados
+target/
+*.class
+
+# Archivos del IDE
+*.iml
+.idea/
+.vscode/
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de log
+*.log
+
+# Archivos de configuración local
+application-local.properties
+application-local.yml
+
+# Dependencias de Maven o Gradle (usualmente ignoradas si están correctamente configuradas)
+.gradle/
+build/
+
+# Configuraciones de entorno
+.env
+
+# Archivos de caché
+*.cache
+*.tmp
+
+# Archivos del sistema operativo
+*.swp
+*~
+
+# Java
+*.jar
+*.war
+*.ear

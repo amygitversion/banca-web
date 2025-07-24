@@ -1,0 +1,72 @@
+.clientes-container {
+  flex: 1;
+  padding: 30px;
+}
+
+.header-clientes {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.nuevo-btn {
+  background-color: #ffd700;
+  border: none;
+  padding: 8px 20px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.buscar-input {
+  padding: 8px;
+  width: 250px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.clientes-lista {
+  border: 1px solid #ccc;
+}
+
+.cliente-item {
+  height: 50px;
+  border-bottom: 1px solid #eee;
+}
+
+.cliente-item:last-child {
+  border-bottom: none;
+}
+
+.tabla-clientes {
+  overflow-x: auto;
+  margin-top: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+thead {
+  background-color: #002060;
+  color: #fff;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.sin-datos {
+  text-align: center;
+  color: #666;
+}

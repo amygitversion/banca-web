@@ -1,0 +1,22 @@
+.sidebar {
+  width: 160px;
+  background-color: #ffffff;
+  border-right: 1px solid #ccc;
+  padding: 20px 10px;
+  height: calc(100vh - 60px);
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  padding: 10px 0;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.sidebar li.active {
+  font-weight: bold;
+}
